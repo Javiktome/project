@@ -1,0 +1,96 @@
+.parallax {
+  /* The image used */
+  background-image: url("../assets/images/karamalmin-kampus-ilmakuva.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+  width: 100%;
+  background-color: red;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  margin: 20px 100px;
+  /* The image used */
+  // background-image: url("../assets/images/maps-directions_buildings.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+  width: 88%;
+  background-color: red;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-parallax, .video-parallax>video{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+
+
+#map {
+  margin-top: 50px;
+    flex: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 500px;
+}
+
+.after-parallax{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.hero-heading{
+  color: white;
+}
+
+.container{
+  margin-top: 50px;
+   background-color: #f8f9fa;
+}
+
+.first-container,.container:nth-of-type(2){
+  
+    background-color: transparent;
+  
+}
+
+.card{
+  margin: 10px 0;
+}
+
+.menu{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.col-style{
+  margin: 20px 0;
+}
+
+.footer{
+  text-align: center;
+  padding:5px 0;
+  background: #f6f6f6;
+  margin: 0;
+  
+}
+
+.list-group{
+  margin-top: 25px;
+}
